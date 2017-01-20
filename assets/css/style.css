@@ -1,7 +1,5 @@
-/** {
-	margin: 0;
-}*/
 
+/*Overall body of the website*/
 body { 
 	background: url(../images/wov.png) repeat 0 0; 
 	color:#777777;
@@ -11,12 +9,23 @@ body {
 	/*width: 960px;*/
 }
 
+/*Header section that is only the name block*/
 header{
 	background-color: #4aaaa5;
 	color: white;
 	float: left;
 	padding: 20px 20px 20px 20px;
 
+}
+
+/*Header block that includes my name on left and navbar on right*/
+#top-section {
+	background-color: #ffffff;
+	border-top: thin solid #cccccc;
+	margin-bottom: 25px;
+	padding: 0 50px 0;
+	overflow: auto;
+	width: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -35,26 +44,29 @@ h4 {
 	padding-bottom: 10px;
 }
 
+/*make nav bar links gray and not ugly*/
 a.header-link {
 	color:#777777;
 	text-decoration: none;
 }
 
-#top-section {
-	background-color: #ffffff;
-	border-top: thin solid #cccccc;
-	margin-bottom: 25px;
-	padding: 0 50px 0;
-	overflow: auto;
-	width: 100%;
+/*wrapper is used for footer based on google search, is this actually needed?*/
+.wrapper {
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto -4em;
 }
 
+
+/*properties of nav bar elements*/
 .nav-bar {
 	float: left;
 	padding: 0px 10px 0px 10px;
 	margin: 20px 0 20px 0;
 }
 
+/*push the navbar to the right to align with the aside box*/
 .nLeft {
 	margin-left: 500px;
 	border-right: thin solid #cccccc;
@@ -63,23 +75,28 @@ a.header-link {
 	border-right: thin solid #cccccc;
 }
 
+/*content box*/
 .main-box {
 	background-color: #ffffff;
-	border: thin solid #cccccc ;
+	border: thin solid #cccccc;
 	float: left;
 	line-height: 150%;
 	margin: 0 20px 30px 40px;
 	overflow: auto;
 	padding: 0 15px 20px 25px;
 	width: 550px;
+
 }
 
+/*my picture*/
 .profile-pic{
 	float: left;
 	width: 126px;
 	height: 167px;
 	margin-right: 20px;
 }
+
+/*images for each of the projects*/
 
 .portfolio-img {
 	float: left;
@@ -89,6 +106,7 @@ a.header-link {
 	border: thin solid #cccccc ;
 }
 
+/*aside box that contains links to github...*/
 .aside-Box{
 	background-color: #ffffff;
 	border: thin solid #cccccc ;
@@ -100,6 +118,7 @@ a.header-link {
 	
 }
 
+/*github links*/
 .link-img {
 	float:left;
 	height: 40px;
@@ -111,12 +130,7 @@ html, body {
 	height: 100%;
 }
 
-.wrapper {
-	height: auto !important;
-	height: 100%;
-	min-height: 100%;
-	margin: 0 auto -4em;
-}
+
 
 footer {
 	background-color: #666666;
@@ -134,14 +148,14 @@ footer {
 	height: 4em;
 }
 
-
+/*for portfolio images*/
 .interior-images {
         float: left;
         display: inline-block;
         position: relative;
     }
 
-
+/*bannder thats ontop of portfolio images*/
 .banner {
 	color: white;
 	background-color: #4aaaa5;
