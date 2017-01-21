@@ -9,6 +9,10 @@ body {
 	/*width: 960px;*/
 }
 
+html, body {
+	height: 100%;
+}
+
 /*Header section that is only the name block*/
 header{
 	background-color: #4aaaa5;
@@ -49,7 +53,7 @@ h4 {
 	font-size: 18px;
 }
 
-#my-div{
+#auto-margin{
   /*//For center align*/
   margin-left: auto;
   margin-right: auto;
@@ -125,48 +129,6 @@ article {
 	border: thin solid #cccccc ;
 }
 
-/*aside box that contains links to github...*/
-.aside-Box{
-	background-color: #ffffff;
-	border: thin solid #cccccc ;
-	float: left;
-	margin: 0 35px 0 35px;
-	overflow: auto;
-	padding: 0 25px 0 25px;
-	width: 150px;
-	
-}
-
-/*github links*/
-.link-img {
-	float:left;
-	height: 40px;
-	margin: 10px 5px 25px;
-	width: 40px;
-}
-
-html, body {
-	height: 100%;
-}
-
-
-
-footer {
-	background-color: #666666;
-	border-top: 10px solid #4aaaa5;
-	clear: both;
-	color: white;
-	float: left;
-	padding: 20px 20px 20px 20px;
-	text-align: center;
-	width: 100%;
-	
-}
-
-.footer, .push {
-	height: 4em;
-}
-
 /*for portfolio images*/
 .interior-images {
         float: left;
@@ -187,3 +149,43 @@ footer {
     left:0;
     text-align: center;
      }
+
+/*aside box that contains links to github...*/
+.aside-Box{
+	background-color: #ffffff;
+	border: thin solid #cccccc ;
+	float: left;
+	margin: 0 35px 0 35px;
+	overflow: auto;
+	padding: 0 25px 0 25px;
+	width: 150px;
+	
+}
+
+/*github links*/
+.link-img {
+	float:left;
+	height: 40px;
+	margin: 10px 5px 25px;
+	width: 40px;
+}
+
+
+
+/*sticky footer*/
+footer {
+	background-color: #666666;
+	border-top: 10px solid #4aaaa5;
+	clear: both;
+	color: white;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.footer, .push {
+	height: 4em;
+}
+
